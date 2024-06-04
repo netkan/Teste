@@ -1,0 +1,68 @@
+body{
+    font-family: "roboto", sans-serif;
+    background-image: url(/img/lilas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+ a{
+    text-decoration: none;
+    color: #e81010;
+ }
+
+ #Entrar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+
+ #cadastro{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .email input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(0, 0, 0);    
+    color: white;
+ }
+
+ .senha input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(0, 0, 0);    
+    color: white;
+ }
+
+ .entrar input{
+    cursor: pointer;  
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+ }
+
+ input ::placeholder
+ {
+    color: aliceblue;
+ }
+
+ .caixa{
+    margin-top: 40px;
+    border-radius: 5%;
+    padding: 60px;
+    padding-top: 30px;
+ }

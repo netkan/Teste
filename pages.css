@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #0f0c25;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+}
+.logo{
+    text-decoration: none; 
+    color: aliceblue;
+    font-size: 40px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #7a0c0c;
+  }
+
+.nome{
+    display: flex;
+    justify-content: space-around;
+}
+
+.qualquer{
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+    width: 1200px;
+}
+
+.fundo{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgba(3, 3, 3, 0.696); 
+    display: flex;
+    justify-content: space-around;
+    color: bisque;
+}
+
+.titulo{
+    border: 2px solid aqua;
+    color: aqua;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
